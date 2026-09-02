@@ -5,13 +5,13 @@ background(220)
 world.gravity.y = 5;
 }
 function draw() {
-    ball = new Sprite();
-    ball.diameter = 25;
     if (mouse.presses()) {
+        ball = new Sprite();
+        ball.diameter = 25;
         ball.x = mouseX
         ball.y = mouseY
-        background(220)
     }
+    background(220)
         
 
 }
