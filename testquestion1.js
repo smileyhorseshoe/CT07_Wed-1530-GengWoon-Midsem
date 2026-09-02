@@ -11,7 +11,7 @@ function draw() {
     if (mouse.presses()) {
         ball.x = mouseX
         ball.y = mouseY
-        ball.layer =1000
+        
         
     }
 }
