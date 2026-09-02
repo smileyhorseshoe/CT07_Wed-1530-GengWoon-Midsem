@@ -11,6 +11,7 @@ function draw() {
     if (mouse.presses()) {
         ball.x = mouseX
         ball.y = mouseY
+        background(220)
         
         
     }
