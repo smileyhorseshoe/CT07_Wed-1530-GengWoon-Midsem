@@ -9,7 +9,7 @@ world.gravity.y = 10;
 }
 function draw() {
     if (mouse.presses()) {
-        ball.x = mouseX
+        all.x = mouseX
         ball.y = mouseY
         
         
