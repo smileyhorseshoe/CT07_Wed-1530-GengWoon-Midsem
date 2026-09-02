@@ -13,7 +13,7 @@ function draw() {
         ball.visible = true;
         ball.x = mouseX
         ball.y = mouseY
-        ball.visible = false;
+    ball.visible = false;
         
         
     }
