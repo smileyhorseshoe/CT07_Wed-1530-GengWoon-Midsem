@@ -9,10 +9,11 @@ ball.diameter = 25;
 world.gravity.y = 10;
 }
 function draw() {
+    ball.visible = true
     if (mouse.presses()) {
         ball.x = mouseX
         ball.y = mouseY
-        background(220)
+        // background(220)
         
     }
 }
