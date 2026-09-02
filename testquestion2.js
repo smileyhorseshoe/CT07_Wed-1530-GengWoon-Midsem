@@ -5,6 +5,8 @@ createCanvas(600,400);
 background(220);
 world.gravity.y = 5;
 floor = new Sprite();
+floor.width = width;
+
 floor.collider=  'static';
 floor.color = 'black';
 
