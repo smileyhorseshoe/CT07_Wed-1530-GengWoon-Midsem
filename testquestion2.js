@@ -19,7 +19,7 @@ function draw() {
         ball.diameter = 25;
         ball.x = mouseX;
         ball.y = mouseY;
-        ball.bounciness = 0.5;
+        ball.bounciness = 0.2;
     }
     background(220);
         
