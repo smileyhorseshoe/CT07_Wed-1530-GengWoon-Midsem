@@ -6,7 +6,7 @@ background(220);
 world.gravity.y = 5;
 floor.x= width/2;
 floor.y = 30;
-floor = new Sprite(floor.x);
+floor = new Sprite(floor.x,floor.y,);
 floor.collider=  'static';
 floor.color = 'black';
 
