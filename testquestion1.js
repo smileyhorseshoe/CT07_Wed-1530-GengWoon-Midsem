@@ -7,11 +7,11 @@ ball.diameter = 25;
 world.gravity.y = 5;
 }
 function draw() {
+    background(220)
     if (mouse.presses()) {
         ball.x = mouseX
         ball.y = mouseY
-        ball.layer = 1000
+        
         
     }
-    background(220)
 }
