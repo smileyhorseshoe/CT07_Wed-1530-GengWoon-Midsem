@@ -13,5 +13,5 @@ function draw() {
         ball.layer = 1000
         
     }
-    // background(220)
+    background(220)
 }
