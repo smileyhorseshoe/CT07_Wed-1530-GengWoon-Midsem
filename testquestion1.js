@@ -8,9 +8,9 @@ ball.visible = false;
 world.gravity.y = 5;
 }
 function draw() {
-    ball.visible = true;
     background(220)
     if (mouse.presses()) {
+        ball.visible = true;
         ball.x = mouseX
         ball.y = mouseY
         
