@@ -13,6 +13,7 @@ function draw() {
         ball.x = mouseX
         ball.y = mouseY
         background(220)
+    }
         
 
 }
