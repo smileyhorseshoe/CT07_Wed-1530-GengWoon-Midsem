@@ -1,4 +1,5 @@
 let ball;
 function setup() {
-new Sprite
+ball = new Sprite();
+
 }
