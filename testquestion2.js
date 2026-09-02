@@ -4,8 +4,6 @@ function setup() {
 createCanvas(600,400);
 background(220);
 world.gravity.y = 5;
-floor.x= width/2;
-floor.y = 30;
 floor = new Sprite();
 floor.collider=  'static';
 floor.color = 'black';
