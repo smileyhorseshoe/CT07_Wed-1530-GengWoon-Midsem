@@ -12,7 +12,6 @@ function draw() {
         ball.x = mouseX
         ball.y = mouseY
         ball.layer =1000
-        background(220)
         
     }
 }
