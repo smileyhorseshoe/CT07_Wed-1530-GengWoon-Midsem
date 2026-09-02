@@ -4,7 +4,7 @@ createCanvas(600,400)
 background(220)
 ball = new Sprite();
 ball.diameter = 25;
-world.gravity.y = 10;
+world.gravity.y = 5;
 }
 function draw() {
     if (mouse.presses()) {
