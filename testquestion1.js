@@ -6,5 +6,7 @@ ball.diameter = 25;
 world.gravity.y = 10;
 }
 function draw() {
-    if (mouse.presses()) {}
+    if (mouse.presses()) {
+        
+    }
 }
