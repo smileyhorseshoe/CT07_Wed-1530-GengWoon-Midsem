@@ -4,7 +4,6 @@ createCanvas(600,400)
 background(220)
 ball = new Sprite();
 ball.diameter = 25;
-ball.collider = 'static'
 world.gravity.y = 10;
 }
 function draw() {
