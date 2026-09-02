@@ -3,6 +3,7 @@ function setup() {
 createCanvas(600,400)
 background(220)
 ball = new Sprite();
+ball.visible = false;
 ball.diameter = 25;
 
 world.gravity.y = 10;
